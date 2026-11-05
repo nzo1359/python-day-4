@@ -1,8 +1,7 @@
 
 def convert():
     user = input()
-    user = user.replace(":)", "🙂")
-    user = user.replace(":(", "🙁")
+    user = user.replace(":(", "🙁" ).replace(":)", "🙂")
     print(user)
 
 
